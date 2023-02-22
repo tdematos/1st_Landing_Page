@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.square {
+    height: 200px;
+    width: 400px;
+    background-color: #555;
+    max-width: 400px;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/*navigation bar code*/
+.navbar {
+    background-color: #1f2937;
+    color: white;
+    height: 60px;
+}
+
+.navbar a:hover {
+    color: #3882f6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+/*Hero section code*/
+.Hero {
+    background-color: #1f2937;
+    color: white;
+    min-height: 400px;
+}
+
+.Hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+ 
+.hero-text {
+    max-width: 500px;
+}
+
+.button-one {
+    border-color: #3882f6;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px;
+}
+
+.Hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 1 auto;
+    padding-top: 100px;
+    max-width: 900px;
+    
+}
+/* ttile seciton*/
+.title h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+/*code for the box section under the Hero Section*/
+.rounded-square {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-style: solid;
+    border-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes .container {
+    display: flex;
+    margin: 50px;
+    max-width: 800px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.txt {
+    padding: 8px;
+}
+/*Section for quote*/
+.quote .container {
+    background-color: #e5e7eb;
+    min-height: 400px;
+    max-width: 100%;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor-quote {
+    max-width: 650px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bolder;
+    position:relative; left:190px;
+    font-size: 20px;
+}
+/*Section for CTA*/
+.CTA {
+    background-color: white;
+    min-height: 400px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    height: 150px;
+    width: 750px;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blue-box .container {
+    max-width: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+.cta-title {
+    font-weight: bolder;
+}
+
+.cta-message {
+    font-size: 15px;
+}
+
+.button {
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+/*Footer Section*/
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
